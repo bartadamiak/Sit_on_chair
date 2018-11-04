@@ -264,7 +264,7 @@ body {
     width: 50%;
     height: 100%;
     position: absolute;
-    top: 250px;
+    top: 220px;
     right: 20px;
     font-size: 20px;
     text-align: center;
@@ -821,12 +821,39 @@ textarea.form-control {
     color: #aaa;
 }
 
+.footer {
+    height: 70px;
+}
+
 .footer_content {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
 }
 
 .footer_text {
     color: #aaaaaa;
     font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: auto;
+
+}
+
+.icons {
+    position: absolute;
+    right: 200px;
+    top: -10px;
+}
+
+.footer_text2 {
+    color: #aaaaaa;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+.bold {
+    font-weight: 600;
 }
