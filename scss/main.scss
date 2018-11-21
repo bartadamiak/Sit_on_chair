@@ -1,0 +1,20 @@
+@import "grid.scss";
+@import "_global.scss";
+@import "_header.scss";
+@import "_slider.scss";
+@import "_news.scss";
+@import "_prices.scss";
+@import "_form.scss";
+
+:root {
+  --color: #24BAA0;
+  --color2: #1F8976;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}

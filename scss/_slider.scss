@@ -1,0 +1,92 @@
+.main-banner-bg {
+  background: linear-gradient(#fafafa, #ddd);
+}
+
+.banner {
+  height:505px;
+  display: flex;
+}
+.banner-prev,
+.banner-next {
+  width: 100px;
+  font-size: 70px;
+  color: var(--color);
+  border:0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+.banner-prev:active,
+.banner-next:active {
+  color: #000;
+}
+.banner-next {
+  order: 1;
+}
+.banner-slides {
+  background-image: linear-gradient(#fafafa, #ddd);
+  flex-grow: 1;
+  position: relative;
+}
+.banner-slide {
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity: 0;
+  transition: 1s;
+}
+.banner-slide-show {
+  opacity: 1;
+  z-index: 1;
+}
+
+.black_chair {
+  width: 50%;
+  height: 100%;
+  background: url("../images/black_chair.png") no-repeat;
+  position: absolute;
+  top: 100px;
+  left: auto;
+}
+
+.about {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about span {
+  color: var(--color);
+}
+
+.about_text {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 220px;
+  right: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.more {
+  color: #ffffff;
+  width: 300px;
+  height: 50px;
+  background: var(--color);
+  border: var(--color);
+  border-radius: 10%;
+  position: absolute;
+  top: 350px;
+  left: 475px;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
