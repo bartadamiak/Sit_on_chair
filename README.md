@@ -1,3 +1,1 @@
-Demo:
-
-http://bit.do/Sit_on_chair
+http://bit.do/sit_on_chair
