@@ -1,1 +1,1 @@
-http://bit.do/sit_on_chair
+http://hosting1907205.online.pro/chairs
